@@ -1,6 +1,7 @@
-def main():
-    poss
+def get_employees(people : list):
+    employees = []
+    print("Данные сотрудников: ")
+    for man in people:
+        employees.append(man)
 
-
-if __name__ == '__main__':
-    main()
+    return employees
